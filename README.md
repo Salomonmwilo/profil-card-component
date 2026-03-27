@@ -1,98 +1,197 @@
-# Frontend Mentor - Profile card component
+## Purpose of the `develop` Branch
 
-![Design preview for the Profile card component coding challenge](preview.jpg)
+The `develop` branch is where all the work happens before going to `main`.
 
-## Welcome! 👋
+You will:
 
-Thanks for checking out this front-end coding challenge.
+* Work on features
+* Practice Git workflow
+* Collaborate as a team
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+**Do NOT push directly to `main`**
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+___ 
 
-## The challenge
+## About This Challenge
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+This project is based on the Frontend Mentor – Profile Card Component challenge.
+https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Objective
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Build a profile card component that matches the provided design as closely as possible.
 
-## Where to find everything
+Do not start coding immediately without understanding the design.
+---
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+## Branching Strategy
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+Each task = one branch
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Naming Convention
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+```
+feature/<your-name>-<task>
+```
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Examples:
 
-## Using AI coding assistants
+* `feature/yusse-html-structure`
+* `feature/alain-css-style`
+* `feature/david-layout`
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+---
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+## Why We Use Branches
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+Branches allow us to:
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+* Work independently without breaking the project
+* Test changes safely
+* Collaborate in an organized way
 
-## Building your project
+Think of a branch as your **personal workspace**
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+---
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+## Commit – Step by Step
 
-## Deploying your project
+A commit = saving your progress
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### When to Commit
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+You should commit when:
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+* You complete a small task
+* You make a meaningful change
+* You fix a bug
 
-## Create a custom `README.md`
+Do NOT commit everything at once at the end
+Commit regularly
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+---
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### How to Commit
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+```
+git add .
+git commit -m "your message"
+```
 
-## Submitting your solution
+---
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+## Commit Message Standard
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+We use a simple format:
 
-## Sharing your solution
+```
+type: short description
+```
 
-There are multiple places you can share your solution:
+### Types
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+* `feat:` → new feature
+* `fix:` → bug fix
+* `style:` → design / CSS
+* `docs:` → documentation
+* `setup:` → project setup
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+---
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+### Examples
 
-## Got feedback for us?
+```
+feat: add HTML structure
+style: add card styling
+fix: correct image alignment
+docs: update README
+setup: initial project setup
+```
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi@frontendmentor.io.
+---
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+## Why Commit Messages Matter
 
-**Have fun building!** 🚀
+They help us:
+
+* Understand what was done
+* Track progress
+* Review code easily
+
+A good commit message = clear communication
+
+---
+
+## Pull Request (PR)
+
+A Pull Request = asking to merge your work into `develop`
+
+---
+
+### Why We Use PR
+
+* To review your work
+* To give feedback
+* To maintain code quality
+
+No PR = No collaboration
+
+---
+
+### When to Create a PR
+
+Create a PR when:
+
+* Your task is complete
+* Your code is working
+* You are ready for review
+
+---
+
+### PR Process
+
+1. Push your branch
+2. Open Pull Request → `develop`
+3. Add a description:
+
+Example:
+
+```
+- Added HTML structure
+- Styled the card layout
+- Fixed spacing issues
+```
+
+4. Wait for review
+5. Apply corrections if needed
+
+---
+
+## Important Rules
+
+* One issue = one branch
+* One task = multiple commits (if needed)
+* Always create a PR
+* Never push directly to `develop` or `main`
+* Always write clear commit messages
+
+---
+
+## Learning Objective
+
+This project is not just about coding.
+
+You are learning:
+
+* How to work like a developer
+* How to collaborate using Git
+* How to structure your work
+
+---
+
+## Final Note
+
+**Do not be afraid to make mistakes.**
+
+Mistakes are part of the learning process.
+The goal is to improve step by step.
